@@ -4,22 +4,23 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Q_2439_Star2 {
+public class Q_10991_Star16 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
-        String[] star = new String[num];
 
         for(int i=0 ; i<num ; i++){
-            star[i] = " ";
-        }
-
-        for(int i=num-1 ; i>=0 ; i--){
-            star[i] ="*";
-            for(int j=0 ; j<num ; j++){
-                System.out.print(star[j]);
+            for(int j=0 ; j<num-i-1 ; j++){
+                System.out.print(" ");
+            }
+            for(int j=0 ; j<2*i+1 ; j++){
+                if(j%2 == 0)
+                    System.out.print("*");
+                else
+                    System.out.print(" ");
             }
             System.out.println();
         }
+
     }
 }
