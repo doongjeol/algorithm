@@ -8,7 +8,11 @@ public class Q_1463_Making1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
+        int result = num;
 
+        while(num != 1){
+            
+        }
 
     }
 
@@ -35,7 +39,5 @@ public class Q_1463_Making1 {
             return true;
         else
             return false;
-
-
     }
 }
