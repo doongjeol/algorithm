@@ -8,36 +8,24 @@ public class Q_1463_Making1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
-        int result = num;
+        System.out.println(solution(num));
+    }
 
-        while(num != 1){
-            
+    public static int solution(int num){
+        int[] resultArry = new int[num+1];
+        resultArry[0] = 0;
+        resultArry[1] = 0;
+        int result = 0;
+        for(int i=2 ; i<=num ; i++){
+            resultArry[i] = resultArry[i-1] + 1;
+            if(i%2 == 0)
+                resultArry[i] = Math.min(resultArry[i],resultArry[i/2] + 1);
+            if(i%3 == 0)
+                resultArry[i] = Math.min(resultArry[i],resultArry[i/3] + 1);
         }
 
+        return resultArry[num];
     }
 
-    public static int divideByThree (int x){
-        int result = x/3;
 
-        return result;
-    }
-
-    public static int divideByTwo (int x){
-        int result = x/2;
-
-        return result;
-    }
-
-    public static int minusOne (int x){
-        int result = x-1;
-
-        return result;
-    }
-
-    public static boolean isOne (int x){
-        if(x == 1)
-            return true;
-        else
-            return false;
-    }
 }

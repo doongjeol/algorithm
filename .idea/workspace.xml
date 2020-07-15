@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfa8c1b-04d5-4f71-aa1b-107ec2d602d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/RecurPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dp/Q_1463_Making1.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/Q_1463_Making1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
       <recent name="C:\Users\dainkim\IdeaProjects\Backjoon\io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q_10992_Star17">
+  <component name="RunManager" selected="Application.RecurPractice">
     <configuration name="Q_10991_Star16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.Q_10991_Star16" />
       <module name="Backjoon" />
@@ -91,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_2445_Star8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.Q_2445_Star8" />
+    <configuration name="Q_1463_Making1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Q_1463_Making1" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_2522_Star12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.Q_2522_Star12" />
+    <configuration name="RecurPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.RecurPractice" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecurPractice" />
+        <item itemvalue="Application.Q_1463_Making1" />
         <item itemvalue="Application.Q_10992_Star17" />
         <item itemvalue="Application.Q_10991_Star16" />
         <item itemvalue="Application.Q_2446_Star9" />
-        <item itemvalue="Application.Q_2522_Star12" />
-        <item itemvalue="Application.Q_2445_Star8" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +158,8 @@
       <workItem from="1592795261927" duration="2758000" />
       <workItem from="1593682902228" duration="6605000" />
       <workItem from="1594291191028" duration="1745000" />
+      <workItem from="1594448512900" duration="3970000" />
+      <workItem from="1594817036704" duration="2755000" />
     </task>
     <servers />
   </component>
@@ -178,22 +183,26 @@
       <screen x="0" y="0" width="864" height="1496" />
     </state>
     <state x="0" y="542" width="1536" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.864.1496@0.0.864.1496" timestamp="1592473389430" />
-    <state width="1253" height="210" key="GridCell.Tab.0.bottom" timestamp="1593686883222">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1594819076165">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1253" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
-    <state width="1253" height="210" key="GridCell.Tab.0.center" timestamp="1593686883222">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1594819076165">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1253" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
-    <state width="1253" height="210" key="GridCell.Tab.0.left" timestamp="1593686883222">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1594819076165">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1253" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
-    <state width="1253" height="210" key="GridCell.Tab.0.right" timestamp="1593686883222">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1594819076165">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1253" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
     <state x="180" y="0" key="new project wizard" timestamp="1592473904770">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
