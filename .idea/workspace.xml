@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfa8c1b-04d5-4f71-aa1b-107ec2d602d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/RecurPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_1463_Making1.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/Q_1463_Making1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
