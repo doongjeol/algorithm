@@ -1,58 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfa8c1b-04d5-4f71-aa1b-107ec2d602d7" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/dp/Q_1463_Making1_review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/Q_11650_SortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/Q_2751_SortNum2.java" afterDir="false" />
+    <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" afterDir="false" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
+      <change beforePath="$PROJECT_DIR$/sort/Q_11650_SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/Q_11650_SortArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1dLvVk6Td8WP74DtbJ6ZqGl4qWN" />
+  <component name="ProjectId" id="1gJZt3UMwfZKloiOhrvbdbjLgUk" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -67,90 +36,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dainkim\IdeaProjects\Backjoon\io" />
-    </key>
-  </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="Application.Q_11650_SortArray">
+  <component name="RunManager">
     <configuration name="Q_11650_SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.Q_11650_SortArray" />
-=======
-  <component name="RunManager" selected="Application.Q_11726_2xnTileing">
-    <configuration name="Q_10991_Star16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.Q_10991_Star16" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_1463_Making1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Q_1463_Making1" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="Q_1463_Making1_review" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Q_1463_Making1_review" />
-=======
-    <configuration name="Q_11726_2xnTileing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Q_11726_2xnTileing" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <configuration name="Q_2751_SortNum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.Q_2751_SortNum2" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-=======
-    <configuration name="Q_1463_Making1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Q_1463_Making1" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecurPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.RecurPractice" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +52,7 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
         <item itemvalue="Application.Q_11650_SortArray" />
-        <item itemvalue="Application.Q_2751_SortNum2" />
-        <item itemvalue="Application.Q_1463_Making1_review" />
-        <item itemvalue="Application.RecurPractice" />
-        <item itemvalue="Application.Q_1463_Making1" />
-=======
-        <item itemvalue="Application.Q_11726_2xnTileing" />
-        <item itemvalue="Application.RecurPractice" />
-        <item itemvalue="Application.Q_1463_Making1" />
-        <item itemvalue="Application.Q_10992_Star17" />
-        <item itemvalue="Application.Q_10991_Star16" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
       </list>
     </recent_temporary>
   </component>
@@ -181,26 +61,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2dfa8c1b-04d5-4f71-aa1b-107ec2d602d7" name="Default Changelist" comment="" />
-      <created>1592217213164</created>
+      <changelist id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="" />
+      <created>1597834867324</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592217213164</updated>
-      <workItem from="1592217219665" duration="9633000" />
-      <workItem from="1592473741875" duration="163000" />
-      <workItem from="1592795261927" duration="2758000" />
-      <workItem from="1593682902228" duration="6605000" />
-      <workItem from="1594291191028" duration="1745000" />
-      <workItem from="1594448512900" duration="3970000" />
-      <workItem from="1594817036704" duration="2755000" />
-<<<<<<< HEAD
-      <workItem from="1596534484701" duration="20000" />
-      <workItem from="1597055699721" duration="3482000" />
-      <workItem from="1597314062128" duration="2481000" />
-=======
-      <workItem from="1596971000891" duration="46000" />
-      <workItem from="1597237652784" duration="1344000" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
+      <updated>1597834867324</updated>
+      <workItem from="1597834872511" duration="243000" />
+      <workItem from="1598148963169" duration="1270000" />
+      <workItem from="1598160377198" duration="595000" />
     </task>
     <servers />
   </component>
@@ -208,99 +76,28 @@
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="542" width="1536" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592473389430">
-      <screen x="0" y="0" width="864" height="1496" />
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1597835111556">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="542" width="1536" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.864.1496@0.0.864.1496" timestamp="1592473389430" />
-<<<<<<< HEAD
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1597138954158">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597835111556" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1597411180236">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597138954158" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1597315775654">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1597411180236">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597315775654" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1597315775654">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1597411180236">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597315775654" />
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1597315775654">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1597411180236">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597315775654" />
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1597315775654">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597315775654" />
-=======
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596971044216">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596971044216" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1597240686479">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597240686479" />
-    <state width="1253" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1597240686479">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597240686479" />
-    <state width="1253" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1597240686478">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597240686478" />
-    <state width="1253" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1597240686479">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597240686479" />
-    <state width="1253" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593686883222" />
->>>>>>> ffeca4b470adb90c5a35d0249b48e1de8f861275
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594819076165" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1597240437583">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597240437583" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1597240437582">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597240437582" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1597240437582">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597240437582" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1597240437583">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597240437583" />
-    <state x="180" y="0" key="new project wizard" timestamp="1592473904770">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="180" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1592473904770" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597057309602">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597057309602" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
   </component>
 </project>
