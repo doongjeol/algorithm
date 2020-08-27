@@ -5,4 +5,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.idea/
+
+.idea/workspace.xml
+out/production/Backjoon/.idea/workspace.xml

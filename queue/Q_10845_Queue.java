@@ -3,6 +3,7 @@ package queue;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -60,9 +61,18 @@ public class Q_10845_Queue {
                 if(queue.isEmpty())
                     System.out.println(-1);
                 else
-                    System.out.println();
+                    System.out.println(findLast());
                 break;
         }
+    }
 
+    public static int findLast(){
+        Iterator<Integer> iterator = queue.iterator();
+        int current = 0;
+        while(iterator.hasNext()){
+            current = iterator.next();
+        }
+
+        return current;
     }
 }
