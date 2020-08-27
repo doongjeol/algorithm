@@ -24,6 +24,7 @@ public class Q_10845_Queue {
                 integer = Integer.parseInt(st.nextToken());
             } else
                 command = st.nextToken();
+            solution(command,integer);
 
 
         }
