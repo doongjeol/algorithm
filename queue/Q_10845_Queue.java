@@ -1,15 +1,14 @@
-package stack;
+package queue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Q_10828_MakeStack {
-    static List list = new ArrayList<>();
-
+public class Q_10845_Queue {
+    public static Queue<Integer> queue = new LinkedList<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
@@ -18,46 +17,50 @@ public class Q_10828_MakeStack {
             StringTokenizer st = new StringTokenizer(br.readLine());
             String command = "";
             int integer = 0;
+
             if (st.countTokens() == 2) {
                 command = st.nextToken();
                 integer = Integer.parseInt(st.nextToken());
-            } else{
+            } else
                 command = st.nextToken();
-            }
-            solution(command,integer);
+
 
         }
     }
 
     public static void solution(String command, int integer) {
-        int size = list.size();
+        int size = queue.size();
 
         switch (command) {
             case "push":
-                list.add(integer);
+                queue.add(integer);
                 break;
             case "pop":
-                if(list.isEmpty())
+                if(queue.isEmpty())
                     System.out.println(-1);
-                else {
-                    System.out.println(list.get(size-1));
-                    list.remove(size - 1);
-                }
+                else
+                    System.out.println(queue.poll());
                 break;
             case "size":
                 System.out.println(size);
                 break;
             case "empty":
-                if(list.isEmpty())
+                if(queue.isEmpty())
                     System.out.println(1);
                 else
                     System.out.println(0);
                 break;
-            case "top":
-                if(list.isEmpty())
+            case "front":
+                if(queue.isEmpty())
                     System.out.println(-1);
                 else
-                    System.out.println(list.get(size-1));
+                    System.out.println(queue.peek());
+                break;
+            case "back":
+                if(queue.isEmpty())
+                    System.out.println(-1);
+                else
+                    System.out.println();
                 break;
         }
 

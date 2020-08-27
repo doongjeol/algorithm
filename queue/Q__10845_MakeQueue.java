@@ -1,4 +1,4 @@
-package stack;
+package queue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,9 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Q_10828_MakeStack {
-    static List list = new ArrayList<>();
-
+public class Q__10845_MakeQueue {
+    public static List<Integer> list = new ArrayList<>();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
@@ -21,11 +20,10 @@ public class Q_10828_MakeStack {
             if (st.countTokens() == 2) {
                 command = st.nextToken();
                 integer = Integer.parseInt(st.nextToken());
-            } else{
+            } else {
                 command = st.nextToken();
             }
             solution(command,integer);
-
         }
     }
 
@@ -40,8 +38,8 @@ public class Q_10828_MakeStack {
                 if(list.isEmpty())
                     System.out.println(-1);
                 else {
-                    System.out.println(list.get(size-1));
-                    list.remove(size - 1);
+                    System.out.println(list.get(0));
+                    list.remove(0);
                 }
                 break;
             case "size":
@@ -53,13 +51,18 @@ public class Q_10828_MakeStack {
                 else
                     System.out.println(0);
                 break;
-            case "top":
+            case "front":
+                if (list.isEmpty())
+                    System.out.println(-1);
+                else
+                    System.out.println(list.get(0));
+                break;
+            case "back":
                 if(list.isEmpty())
                     System.out.println(-1);
                 else
                     System.out.println(list.get(size-1));
                 break;
         }
-
     }
 }
