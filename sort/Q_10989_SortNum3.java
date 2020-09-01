@@ -1,8 +1,6 @@
 package sort;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -30,9 +28,14 @@ public class Q_10989_SortNum3 {
             }
         });
 
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
         for (int i = 0; i < num; i++) {
-            System.out.println(list.get(i));
+            bw.write(list.get(i)+"\n");
         }
+
+        br.close();
+        bw.close();
 
     }
 }

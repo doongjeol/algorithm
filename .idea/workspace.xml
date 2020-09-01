@@ -20,116 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dp/Q_10844_NumOfStair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/Q_11727_2xnTileing2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/Q_9095_Plus123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/Q_10866_Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/Q_10814_SortAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/Q_10825_KoreanEnglishMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/Q_10989_SortNum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/Q_11651_SortCoordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/Q_10808_NumOfAlphabet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/Q_10809_FindAlphabet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/Q_11652_Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10026_ColorWeakness.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10026_ColorWeakness.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1012_OrganicCabage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1012_OrganicCabage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1018_ChessBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1018_ChessBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1018_ChessBoard_DH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1018_ChessBoard_DH.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10265_MT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10265_MT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1039_Exchange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1039_Exchange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10448_EurekaTheory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10448_EurekaTheory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10828_Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10828_Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11047_Coin0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11047_Coin0.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1107_RemoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1107_RemoteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11399_ATM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11399_ATM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRoute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRouteDFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRouteDFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRoute_JY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRoute_JY.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11724_TheNumberOfConnecting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11724_TheNumberOfConnecting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_12100_2048.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_12100_2048.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1260_DFSandBFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1260_DFSandBFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeBFS$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeBFS$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeBFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeBFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeDFSSad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeDFSSad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1449_RepairmanHangseung.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1449_RepairmanHangseung.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14501_Resignation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14501_Resignation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotBFS$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotBFS$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotBFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotBFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotSad$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotSad$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotSad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotSad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1476_CalculatingDay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1476_CalculatingDay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14891_Cogwheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14891_Cogwheel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1525_Puzzle$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1525_Puzzle$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1525_Puzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1525_Puzzle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1546_Average.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1546_Average.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_16235_TreeInvestTech.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_16235_TreeInvestTech.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1652_FindLyingSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1652_FindLyingSpace.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1652_FindLyingSpaceSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1652_FindLyingSpaceSimple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1697_HideAndSeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1697_HideAndSeek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1734_TrafficSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1734_TrafficSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1734_TrafficSystemList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1734_TrafficSystemList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1743_AvoidGarbage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1743_AvoidGarbage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1747_PrimePalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1747_PrimePalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1912_ContinuousSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1912_ContinuousSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1931_MeetingRoom$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1931_MeetingRoom$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1931_MeetingRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1931_MeetingRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1946_NewEmployee$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1946_NewEmployee$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1946_NewEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1946_NewEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2178_Maze$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2178_Maze$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2178_Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2178_Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2206_BreakingWall$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2206_BreakingWall$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2206_BreakingWall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2206_BreakingWall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2231_FactorizationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2231_FactorizationSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2294_Coin2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2294_Coin2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2309_SevenDwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2309_SevenDwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2455_IntelligentTrain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2455_IntelligentTrain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2468_SaftyArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2468_SaftyArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2503_NumberBaseball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2503_NumberBaseball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2583_CalculatingArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2583_CalculatingArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2644_CalculateDegreeOfKinship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2644_CalculateDegreeOfKinship.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2667_AttachNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2667_AttachNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3085_Candy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3085_Candy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3190_Snake$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3190_Snake$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3190_Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3190_Snake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4307_Ant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4307_Ant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4344_OverAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4344_OverAverage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4796_Camping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4796_Camping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5014_StartLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5014_StartLink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5427_Fire$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5427_Fire$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5427_Fire.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5427_Fire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_6593_SangBumBuilding$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_6593_SangBumBuilding$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_6593_SangBumBuilding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_6593_SangBumBuilding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7562_MovingOfKnight$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7562_MovingOfKnight$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7562_MovingOfKnight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7562_MovingOfKnight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7576_Tomato$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7576_Tomato$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7576_Tomato.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7576_Tomato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9019_DSLR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9019_DSLR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9466_TermProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9466_TermProject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9466_TermProjectStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9466_TermProjectStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_MovieDirectorShyom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_MovieDirectorShyom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10818_MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10818_MinMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10991_Star16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10991_Star16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10992_Star17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10992_Star17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_11721_PrintTen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_11721_PrintTen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_1924_2007.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_1924_2007.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2438_Star1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2438_Star1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2439_Star2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2439_Star2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2440_Star3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2440_Star3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2441_Star4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2441_Star4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2442_Star5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2442_Star5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2445_Star8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2445_Star8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2446_Star9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2446_Star9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2522_Star12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2522_Star12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_8393_Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/io/Q_8393_Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/Q_10989_SortNum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/Q_10989_SortNum3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,6 +41,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1gJZt3UMwfZKloiOhrvbdbjLgUk" />
   <component name="ProjectLevelVcsManager">
@@ -166,7 +70,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Q_10989_SortNum3">
+  <component name="RunManager" selected="Application.Q_11652_Card">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q_10814_SortAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.Q_10814_SortAge" />
       <module name="Backjoon" />
@@ -186,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_10844_NumOfStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Q_10844_NumOfStair" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,28 +134,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="Q_11652_Card" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.Q_11652_Card" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q_11652_Card" />
         <item itemvalue="Application.Q_10989_SortNum3" />
         <item itemvalue="Application.Q_10825_KoreanEnglishMath" />
         <item itemvalue="Application.Q_10814_SortAge" />
         <item itemvalue="Application.Q_11651_SortCoordinate" />
-        <item itemvalue="Application.Q_10844_NumOfStair" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -360,10 +264,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="161" y="172" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1598868529586" />
-    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598869992503">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="1978" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1598955685009">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598869992503" />
+    <state x="1978" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598955685009" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
