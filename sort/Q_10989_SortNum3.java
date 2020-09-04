@@ -10,28 +10,20 @@ public class Q_10989_SortNum3 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num = Integer.parseInt(br.readLine());
-        List<Integer> list = new ArrayList<>();
+        int[] arr = new int[num];
 
         for (int i = 0; i < num; i++) {
-            list.add(Integer.parseInt(br.readLine()));
+            arr[i] = Integer.parseInt(br.readLine());
         }
 
-        list.sort(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                if(o1>o2)
-                    return 1;
-                else if(o1==o2)
-                    return 0;
-                else
-                    return -1;
-            }
-        });
+        Arrays.sort(arr);
 
+
+        // BufferedWriter를 사용해서 출력하는 게 포인트 !!
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         for (int i = 0; i < num; i++) {
-            bw.write(list.get(i)+"\n");
+            bw.write(arr[i] +"\n");
         }
 
         br.close();
