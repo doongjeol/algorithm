@@ -3,7 +3,7 @@ package mathmatics;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Q_1929_PrimeNumver2 {
+public class Q_1929_PrimeNumber2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
