@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_11576_BaseConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1212_OctToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1373_BinaryToOct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1978_PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1979_Multiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_2089_MinusBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathmatics/Q_2745_ReverseMathSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mathmatics/Q_11005_MathSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathmatics/Q_11005_MathSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
@@ -60,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingtest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,9 +82,9 @@
       <recent name="programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q_11005_MathSystem">
-    <configuration name="Q_11005_MathSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_11005_MathSystem" />
+  <component name="RunManager" selected="Application.Q_1979_Multiple">
+    <configuration name="Q_11576_BaseConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_11576_BaseConversion" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -90,21 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_1_Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Q_1_Numbers" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_2609_GCD_LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_2609_GCD_LCM" />
+    <configuration name="Q_1212_OctToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_1212_OctToBinary" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -116,21 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_2_Snail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Q_2_Snail" />
-      <module name="Backjoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q_9613_SumOfGCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_9613_SumOfGCD" />
+    <configuration name="Q_1373_BinaryToOct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_1373_BinaryToOct" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
@@ -142,26 +122,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Q_1979_Multiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_1979_Multiple" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mathmatics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_2089_MinusBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathmatics.Q_2089_MinusBinary" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mathmatics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q_11005_MathSystem" />
-        <item itemvalue="Application.Q_2_Snail" />
-        <item itemvalue="Application.Q_1_Numbers" />
-        <item itemvalue="Application.Q_9613_SumOfGCD" />
-        <item itemvalue="Application.Q_2609_GCD_LCM" />
+        <item itemvalue="Application.Q_1979_Multiple" />
+        <item itemvalue="Application.Q_11576_BaseConversion" />
+        <item itemvalue="Application.Q_2089_MinusBinary" />
+        <item itemvalue="Application.Q_1212_OctToBinary" />
+        <item itemvalue="Application.Q_1373_BinaryToOct" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +191,14 @@
       <workItem from="1599312147540" duration="21827000" />
       <workItem from="1599656410338" duration="11795000" />
       <workItem from="1599781816152" duration="9663000" />
-      <workItem from="1600336204320" duration="1100000" />
+      <workItem from="1600336204320" duration="4195000" />
+      <workItem from="1600565704948" duration="34000" />
+      <workItem from="1600773910788" duration="17710000" />
+      <workItem from="1601287761894" duration="4156000" />
+      <workItem from="1601890821601" duration="4571000" />
+      <workItem from="1601980761018" duration="1632000" />
+      <workItem from="1602065195543" duration="12000" />
+      <workItem from="1602072372768" duration="235000" />
     </task>
     <servers />
   </component>
@@ -216,37 +227,37 @@
     </state>
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598266462793" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598870160841" />
-    <state x="976" y="218" key="FileChooserDialogImpl" timestamp="1600078483441">
+    <state x="490" y="215" key="FileChooserDialogImpl" timestamp="1602065206427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="976" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600078483441" />
+    <state x="490" y="215" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602065206427" />
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597835111556" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom" timestamp="1600337055124">
+    <state width="726" height="155" key="GridCell.Tab.0.bottom" timestamp="1602065168935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598266495974" />
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600337055124" />
+    <state width="726" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602065168935" />
     <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598507807490" />
     <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center" timestamp="1600337055124">
+    <state width="726" height="155" key="GridCell.Tab.0.center" timestamp="1602065168935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598266495974" />
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600337055124" />
+    <state width="726" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602065168935" />
     <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598507807489" />
     <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left" timestamp="1600337055124">
+    <state width="726" height="155" key="GridCell.Tab.0.left" timestamp="1602065168935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598266495974" />
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600337055124" />
+    <state width="726" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602065168935" />
     <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598507807489" />
     <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right" timestamp="1600337055124">
+    <state width="726" height="155" key="GridCell.Tab.0.right" timestamp="1602065168935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1598266495974" />
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600337055124" />
+    <state width="726" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602065168935" />
     <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598507807489" />
     <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
     <state width="724" height="261" key="GridCell.Tab.1.bottom" timestamp="1598873161975">
@@ -273,10 +284,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598162421383" />
-    <state x="965" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599391854637">
+    <state x="965" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601288486323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="965" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599391854637" />
+    <state x="965" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1601288486323" />
     <state x="300" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598871645587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -289,10 +300,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="10" width="585" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1600139789792" />
-    <state x="180" y="22" key="new project wizard" timestamp="1600078383506">
+    <state x="180" y="22" key="new project wizard" timestamp="1600565736097">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="180" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600078383506" />
+    <state x="180" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600565736097" />
     <state x="161" y="172" key="refactoring.ChangeSignatureDialog" timestamp="1598868529586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

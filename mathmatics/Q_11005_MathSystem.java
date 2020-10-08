@@ -28,30 +28,15 @@ public class Q_11005_MathSystem {
         int share = n;
         int rest = 0;
 
-        while (share >= b) {
+        while (share > 0) {
             rest = share % b;
             share = share / b;
 
-            char c = (char) (b + 55);
-            if(b>=10 && b<36)
-                stack.add(String.valueOf(c));
-//            else if(b==36) {
-//                c = (char) (b + 54);
-//                stack.add(String.valueOf(c));
-//            }
-            else
+            if(rest<10)
                 stack.add(String.valueOf(rest));
+            else
+                stack.add(String.valueOf((char)(rest-10+(int)'A'))); // A에서 아스키코드 reset만큼 char형으로 변환, 10부터 char형 변환이므로 -10
 
-            if(share < b){
-                if(b>=10 && b<36)
-                    stack.add(String.valueOf(c));
-                else if(b==36) {
-                    c = (char) (b + 54);
-                    stack.add(String.valueOf(c));
-                }
-                else
-                    stack.add(String.valueOf(share));
-            }
         }
 
     }
