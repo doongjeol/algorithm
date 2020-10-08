@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_11576_BaseConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1212_OctToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1373_BinaryToOct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1929_PrimeNumver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1978_PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_1979_Multiple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_2089_MinusBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathmatics/Q_2745_ReverseMathSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_11005_MathSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/mathmatics/Q_11005_MathSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +140,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,6 +193,7 @@
       <workItem from="1601980761018" duration="1632000" />
       <workItem from="1602065195543" duration="12000" />
       <workItem from="1602072372768" duration="2215000" />
+      <workItem from="1602138716650" duration="302000" />
     </task>
     <servers />
   </component>

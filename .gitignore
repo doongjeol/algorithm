@@ -7,4 +7,4 @@ out/
 !**/src/test/**/out/
 
 .idea/workspace.xml
-out/production/backjoon/.idea/workspace.xml
+out/production/backjoon/
