@@ -12,8 +12,10 @@ public class Q_11653_fip {
         int count = 0;
 
         for (int i = 1; i <= num; i++) {
-            if (num % i == 0) {
-                count++;
+            for (int j = 1; j <= i; i++) {
+                if (num % i == 0) {
+                    count++;
+                }
             }
         }
 
