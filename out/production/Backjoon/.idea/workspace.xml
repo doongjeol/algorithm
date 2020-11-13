@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/kakao/Num1.java" afterDir="false" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -27,229 +28,17 @@
       <change afterPath="$PROJECT_DIR$/programmers/Q_42860_JoyStick.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/programmers/dp/Q_ExpressedByN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/dp/Q_Triangle.java" afterDir="false" />
+>>>>>>> 9babe3f820d43b6c1ff0a5db382dc1b75d616a93
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_10026_ColorWeakness.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_10026_ColorWeakness.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1012_OrganicCabage.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1012_OrganicCabage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1018_ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1018_ChessBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1018_ChessBoard_DH.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1018_ChessBoard_DH.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_10265_MT.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_10265_MT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1039_Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1039_Exchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_10448_EurekaTheory.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_10448_EurekaTheory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_10828_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_10828_Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_11047_Coin0.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_11047_Coin0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1107_RemoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1107_RemoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_11399_ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_11399_ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_11403_FindingRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_11403_FindingRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_11403_FindingRouteDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_11403_FindingRouteDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_11403_FindingRoute_JY.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_11403_FindingRoute_JY.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_11724_TheNumberOfConnecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_11724_TheNumberOfConnecting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_12100_2048.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_12100_2048.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1260_DFSandBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1260_DFSandBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_13460_MarbleEscapeBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_13460_MarbleEscapeBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_13460_MarbleEscapeDFSSad.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_13460_MarbleEscapeDFSSad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1449_RepairmanHangseung.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1449_RepairmanHangseung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_14501_Resignation.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_14501_Resignation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_14503_CleaningRobotBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_14503_CleaningRobotBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_14503_CleaningRobotSad.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_14503_CleaningRobotSad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1476_CalculatingDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1476_CalculatingDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_14891_Cogwheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_14891_Cogwheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1525_Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1525_Puzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1546_Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1546_Average.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_16235_TreeInvestTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_16235_TreeInvestTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1652_FindLyingSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1652_FindLyingSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1652_FindLyingSpaceSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1652_FindLyingSpaceSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1697_HideAndSeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1697_HideAndSeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1734_TrafficSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1734_TrafficSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1734_TrafficSystemList.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1734_TrafficSystemList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1743_AvoidGarbage.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1743_AvoidGarbage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1747_PrimePalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1747_PrimePalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1912_ContinuousSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1912_ContinuousSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1931_MeetingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1931_MeetingRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_1946_NewEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_1946_NewEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2178_Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2178_Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2206_BreakingWall.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2206_BreakingWall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2231_FactorizationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2231_FactorizationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2294_Coin2.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2294_Coin2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2309_SevenDwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2309_SevenDwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2455_IntelligentTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2455_IntelligentTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2468_SaftyArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2468_SaftyArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2503_NumberBaseball.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2503_NumberBaseball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2583_CalculatingArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2583_CalculatingArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2644_CalculateDegreeOfKinship.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2644_CalculateDegreeOfKinship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_2667_AttachNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_2667_AttachNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_3085_Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_3085_Candy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_3190_Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_3190_Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_4307_Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_4307_Ant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_4344_OverAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_4344_OverAverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_4796_Camping.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_4796_Camping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_5014_StartLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_5014_StartLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_5427_Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_5427_Fire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_6593_SangBumBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_6593_SangBumBuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_7562_MovingOfKnight.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_7562_MovingOfKnight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_7576_Tomato.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_7576_Tomato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_9019_DSLR.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_9019_DSLR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_9466_TermProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_9466_TermProject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_9466_TermProjectStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_9466_TermProjectStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q_MovieDirectorShyom.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/Q_MovieDirectorShyom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_10844_NumOfStair.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_10844_NumOfStair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_11726_2xnTileing.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_11726_2xnTileing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_11727_2xnTileing2.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_11727_2xnTileing2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_1463_Making1.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_1463_Making1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_1463_Making1_review.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_1463_Making1_review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/Q_9095_Plus123.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_9095_Plus123.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/RecurPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/RecurPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_10818_MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_10818_MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_10951_AplusB4.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_10951_AplusB4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_10991_Star16.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_10991_Star16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_10992_Star17.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_10992_Star17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_11721_PrintTen.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_11721_PrintTen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_1924_2007.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_1924_2007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2438_Star1.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2438_Star1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2439_Star2.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2439_Star2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2440_Star3.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2440_Star3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2441_Star4.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2441_Star4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2442_Star5.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2442_Star5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2445_Star8.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2445_Star8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2446_Star9.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2446_Star9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_2522_Star12.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_2522_Star12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/Q_8393_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/io/Q_8393_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_10430_Rest.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_10430_Rest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_10872_Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_10872_Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_11005_MathSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_11005_MathSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_11576_BaseConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_11576_BaseConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_11653_fip.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_11653_fip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1212_OctToBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1212_OctToBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1373_BinaryToOct.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1373_BinaryToOct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1676__Factorial_NumOfZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1676__Factorial_NumOfZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1850_GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1850_GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1929_PrimeNumber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1929_PrimeNumber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1934_LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1934_LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1978_PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1978_PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_1979_Multiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_1979_Multiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_2004_NumOfCombination.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_2004_NumOfCombination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_2089_MinusBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_2089_MinusBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_2609_GCD_LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_2609_GCD_LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_2745_ReverseMathSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_2745_ReverseMathSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_6588_GoldBach.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_6588_GoldBach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathmatics/Q_9613_SumOfGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_9613_SumOfGCD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10026_ColorWeakness.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1012_OrganicCabage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1018_ChessBoard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1018_ChessBoard_DH.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10265_MT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1039_Exchange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10448_EurekaTheory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10828_Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11047_Coin0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1107_RemoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11399_ATM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRoute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRouteDFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11403_FindingRoute_JY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_11724_TheNumberOfConnecting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_12100_2048.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1260_DFSandBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeBFS$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_13460_MarbleEscapeDFSSad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1449_RepairmanHangseung.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14501_Resignation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotBFS$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotSad$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14503_CleaningRobotSad.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1476_CalculatingDay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_14891_Cogwheel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1525_Puzzle$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1525_Puzzle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1546_Average.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_16235_TreeInvestTech.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1652_FindLyingSpace.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1652_FindLyingSpaceSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1697_HideAndSeek.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1734_TrafficSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1734_TrafficSystemList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1743_AvoidGarbage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1747_PrimePalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1912_ContinuousSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1931_MeetingRoom$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1931_MeetingRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1946_NewEmployee$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_1946_NewEmployee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2178_Maze$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2178_Maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2206_BreakingWall$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2206_BreakingWall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2231_FactorizationSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2294_Coin2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2309_SevenDwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2455_IntelligentTrain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2468_SaftyArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2503_NumberBaseball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2583_CalculatingArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2644_CalculateDegreeOfKinship.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_2667_AttachNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3085_Candy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3190_Snake$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_3190_Snake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4307_Ant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4344_OverAverage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_4796_Camping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5014_StartLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5427_Fire$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_5427_Fire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_6593_SangBumBuilding$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_6593_SangBumBuilding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7562_MovingOfKnight$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7562_MovingOfKnight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7576_Tomato$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_7576_Tomato.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9019_DSLR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9466_TermProject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_9466_TermProjectStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_MovieDirectorShyom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10818_MinMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10991_Star16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_10992_Star17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_11721_PrintTen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_1924_2007.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2438_Star1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2439_Star2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2440_Star3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2441_Star4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2442_Star5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2445_Star8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2446_Star9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_2522_Star12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/io/Q_8393_Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/Q_10845_MakeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/queue/Q_10845_MakeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/Q_10845_Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/queue/Q_10845_Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/Q_10866_Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/queue/Q_10866_Deque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_10814_SortAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_10814_SortAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_10825_KoreanEnglishMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_10825_KoreanEnglishMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_10989_SortNum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_10989_SortNum3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_11004_KthNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_11004_KthNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_1158_Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_1158_Josephus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_11650_SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_11650_SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_11651_SortCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_11651_SortCoordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_11652_Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_11652_Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_11656_Suffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_11656_Suffix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/Q_2751_SortNum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/sort/Q_2751_SortNum2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/Q_10799_IronBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/stack/Q_10799_IronBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/Q_10828_MakeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/stack/Q_10828_MakeStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/Q_10828_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/stack/Q_10828_Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/Q_9012_PS.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/stack/Q_9012_PS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_10808_NumOfAlphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_10808_NumOfAlphabet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_10809_FindAlphabet.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_10809_FindAlphabet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_10820_AnalyzeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_10820_AnalyzeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_10824_FourNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_10824_FourNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_11655_ROT13.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_11655_ROT13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_1406_Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_1406_Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_1406_Editor_Fail.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_1406_Editor_Fail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Q_2743_StringLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/string/Q_2743_StringLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_1_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/competition/Q_1_Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_2_Snail.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/competition/Q_2_Snail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_42860_JoyStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42860_JoyStick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42862_GymClothes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42883_MakeHighNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/못푼문제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/못푼문제.txt" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -262,6 +51,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -279,6 +71,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1gJZt3UMwfZKloiOhrvbdbjLgUk" />
   <component name="ProjectLevelVcsManager">
@@ -308,6 +103,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Q_42860_JoyStick">
 =======
   </component>
@@ -317,6 +113,9 @@
   </component>
   <component name="RunManager" selected="Application.Num1">
 >>>>>>> Stashed changes
+=======
+  <component name="RunManager" selected="Application.Q_Triangle">
+>>>>>>> 9babe3f820d43b6c1ff0a5db382dc1b75d616a93
     <configuration name="Num1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakao.Num1" />
       <module name="Backjoon" />
@@ -346,11 +145,11 @@
       </method>
     </configuration>
     <configuration name="Q_42860_JoyStick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Q_42860_JoyStick" />
+      <option name="MAIN_CLASS_NAME" value="programmers.greedy.Q_42860_JoyStick" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="programmers.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,10 +158,24 @@
       </method>
     </configuration>
     <configuration name="Q_42862_GymClothes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Q_42862_GymClothes" />
+      <option name="MAIN_CLASS_NAME" value="programmers.greedy.Q_42862_GymClothes" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
+          <option name="PATTERN" value="programmers.greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q_Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dp.Q_Triangle" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="programmers.*" />
 =======
 =======
@@ -376,6 +189,9 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+          <option name="PATTERN" value="programmers.dp.*" />
+>>>>>>> 9babe3f820d43b6c1ff0a5db382dc1b75d616a93
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,10 +199,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+=======
+        <item itemvalue="Application.Q_Triangle" />
+>>>>>>> 9babe3f820d43b6c1ff0a5db382dc1b75d616a93
         <item itemvalue="Application.Q_42860_JoyStick" />
         <item itemvalue="Application.Q_42862_GymClothes" />
 =======
@@ -398,6 +229,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -417,6 +249,7 @@
       <workItem from="1601795142166" duration="8000" />
       <workItem from="1604025887622" duration="35000" />
       <workItem from="1604050649102" duration="7870000" />
+<<<<<<< HEAD
       <workItem from="1604213329498" duration="1126000" />
 =======
       <workItem from="1599887362057" duration="1296000" />
@@ -424,11 +257,15 @@
 =======
       <workItem from="1599887362057" duration="1296000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1604213329498" duration="4379000" />
+      <workItem from="1605174869977" duration="2819000" />
+>>>>>>> 9babe3f820d43b6c1ff0a5db382dc1b75d616a93
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -443,33 +280,43 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1604025920914">
       <screen x="0" y="0" width="1920" height="1040" />
+=======
+    <state x="2560" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604467123885">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604467123885" />
+    <state x="3140" y="275" key="FileChooserDialogImpl" timestamp="1604564981437">
+      <screen x="1920" y="0" width="1920" height="1040" />
+>>>>>>> 9babe3f820d43b6c1ff0a5db382dc1b75d616a93
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597835111556" />
+    <state x="3140" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604564981437" />
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604025920914" />
-    <state width="914" height="284" key="GridCell.Tab.0.bottom" timestamp="1604069597543">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1604217131624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
-    <state width="914" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604069597543" />
-    <state width="914" height="284" key="GridCell.Tab.0.center" timestamp="1604069597543">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1604217131624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
-    <state width="914" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604069597543" />
-    <state width="914" height="284" key="GridCell.Tab.0.left" timestamp="1604069597543">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1604217131624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
-    <state width="914" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604069597543" />
-    <state width="914" height="284" key="GridCell.Tab.0.right" timestamp="1604069597543">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1604217131624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
-    <state width="914" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604069597543" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
     <state x="258" y="189" key="SettingsEditor" timestamp="1604214086826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

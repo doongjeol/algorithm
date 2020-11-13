@@ -1,4 +1,4 @@
-package programmers;
+package programmers.competition;
 
 import java.io.*;
 import java.lang.reflect.Array;
