@@ -23,9 +23,12 @@
       <change afterPath="$PROJECT_DIR$/kakao/Num1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kakao/Num2.java" afterDir="false" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/programmers/Q_42860_JoyStick.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" afterDir="false" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -135,6 +138,7 @@
       <change beforePath="$PROJECT_DIR$/mathmatics/Q_6588_GoldBach.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_6588_GoldBach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mathmatics/Q_9613_SumOfGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/mathmatics/Q_9613_SumOfGCD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Backjoon/backjoon/Q_10026_ColorWeakness.class" beforeDir="false" />
@@ -255,6 +259,8 @@
       <change beforePath="$PROJECT_DIR$/못푼문제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/못푼문제.txt" afterDir="false" />
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +271,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <option value="Kotlin Class" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <option value="Class" />
@@ -302,7 +311,11 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.Q_42860_JoyStick">
+=======
+  <component name="RunManager" selected="Application.Num1">
+>>>>>>> Stashed changes
 =======
   <component name="RunManager" selected="Application.Num1">
 >>>>>>> Stashed changes
@@ -361,8 +374,11 @@
     <recent_temporary>
       <list>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <item itemvalue="Application.Q_42860_JoyStick" />
         <item itemvalue="Application.Q_42862_GymClothes" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <item itemvalue="Application.Num1" />
@@ -387,8 +403,11 @@
       <workItem from="1601795142166" duration="8000" />
       <workItem from="1604025887622" duration="35000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1604050649102" duration="7870000" />
       <workItem from="1604213329498" duration="4379000" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     </task>
@@ -415,6 +434,7 @@
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597835111556" />
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604025920914" />
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1604217131624">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -456,6 +476,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
+=======
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599893776760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
+>>>>>>> Stashed changes
     <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
     <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599893776760">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -479,6 +505,9 @@
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599891156006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599891156006" />
   </component>

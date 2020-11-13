@@ -22,6 +22,7 @@
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/kakao/Num1.java" afterDir="false" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/kakao/Num2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programmers/Q_42860_JoyStick.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" afterDir="false" />
@@ -253,6 +254,9 @@
 =======
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> Stashed changes
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +267,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <option value="Kotlin Class" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <option value="Class" />
@@ -295,12 +302,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager" selected="Application.Q_42860_JoyStick">
+=======
+  </component>
+  <component name="RunManager" selected="Application.Num1">
+>>>>>>> Stashed changes
 =======
   </component>
   <component name="RunManager" selected="Application.Num1">
@@ -319,6 +331,7 @@
       </method>
     </configuration>
     <configuration name="Q_11650_SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <option name="MAIN_CLASS_NAME" value="baekjoon.sort.Q_11650_SortArray" />
       <module name="Backjoon" />
@@ -352,11 +365,16 @@
         <pattern>
           <option name="PATTERN" value="programmers.*" />
 =======
+=======
+>>>>>>> Stashed changes
       <option name="MAIN_CLASS_NAME" value="sort.Q_11650_SortArray" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sort.*" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           <option name="ENABLED" value="true" />
         </pattern>
@@ -368,8 +386,11 @@
     <recent_temporary>
       <list>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <item itemvalue="Application.Q_42860_JoyStick" />
         <item itemvalue="Application.Q_42862_GymClothes" />
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <item itemvalue="Application.Num1" />
@@ -391,11 +412,15 @@
       <workItem from="1598148963169" duration="1270000" />
       <workItem from="1598160377198" duration="626000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1599887362057" duration="6367000" />
       <workItem from="1601795142166" duration="8000" />
       <workItem from="1604025887622" duration="35000" />
       <workItem from="1604050649102" duration="7870000" />
       <workItem from="1604213329498" duration="1126000" />
+=======
+      <workItem from="1599887362057" duration="1296000" />
+>>>>>>> Stashed changes
 =======
       <workItem from="1599887362057" duration="1296000" />
 >>>>>>> Stashed changes
@@ -418,6 +443,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1604025920914">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -461,6 +487,8 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599891156006" />
 =======
+=======
+>>>>>>> Stashed changes
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1597835111556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -481,6 +509,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597411180236" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   </component>
 </project>
