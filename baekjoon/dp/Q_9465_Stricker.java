@@ -4,9 +4,18 @@ import java.util.StringTokenizer;
 
 public class Q_9465_Stricker {
     public static int solution(int[][] sticker){
-        int result = 0;
+        int[][] a = new int[3][sticker.length];
+        int max = 0;
 
-        return result;
+        for(int i=1 ; i<sticker.length ; i++){
+            a[0][i] = Math.max(a[0][i - 1], Math.max(a[1][i - 1], a[2][i - 1]));
+            a[1][i] = Math.max(a[0][i - 1], a[2][i - 1]) + sticker[0][i];
+            a[2][i] = Math.max(a[0][i - 1], a[1][i - 1]) + sticker[1][i];
+            max = Math.max(a[0][i], Math.max(a[0][i], a[2][i]));
+
+        }
+
+        return max;
 
     }
     public static void main (String[] args) throws IOException {

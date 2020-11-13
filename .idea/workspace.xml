@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/baekjoon/dp/Q_9465_Stricker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/dp/Q_ExpressedByN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/dp/Q_Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_1_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/competition/Q_1_Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_2_Snail.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/competition/Q_2_Snail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_42860_JoyStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42860_JoyStick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42862_GymClothes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42883_MakeHighNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/못푼문제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/못푼문제.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baekjoon/dp/Q_9465_Stricker.java" beforeDir="false" afterPath="$PROJECT_DIR$/baekjoon/dp/Q_9465_Stricker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +72,17 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager" selected="Application.Q_Triangle">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Num1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakao.Num1" />
       <module name="Backjoon" />
@@ -142,17 +144,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
