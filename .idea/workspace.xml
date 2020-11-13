@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b010c9e-15ff-4f09-9481-100f59fca9e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/baekjoon/dp/Q_9465_Stricker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/dp/Q_ExpressedByN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/dp/Q_Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_1_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/competition/Q_1_Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_2_Snail.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/competition/Q_2_Snail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_42860_JoyStick.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42860_JoyStick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_42862_GymClothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42862_GymClothes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Q_42883_MakeHighNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/greedy/Q_42883_MakeHighNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/못푼문제.txt" beforeDir="false" afterPath="$PROJECT_DIR$/못푼문제.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coding_test_ebook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +80,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Q_42860_JoyStick">
+  <component name="RunManager" selected="Application.Q_Triangle">
     <configuration name="Num1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakao.Num1" />
       <module name="Backjoon" />
@@ -100,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Q_42860_JoyStick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Q_42860_JoyStick" />
+      <option name="MAIN_CLASS_NAME" value="programmers.greedy.Q_42860_JoyStick" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="programmers.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="Q_42862_GymClothes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.Q_42862_GymClothes" />
+      <option name="MAIN_CLASS_NAME" value="programmers.greedy.Q_42862_GymClothes" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="programmers.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,8 +133,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q_Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.dp.Q_Triangle" />
+      <module name="Backjoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q_Triangle" />
         <item itemvalue="Application.Q_42860_JoyStick" />
         <item itemvalue="Application.Q_42862_GymClothes" />
         <item itemvalue="Application.Num1" />
@@ -134,6 +167,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -152,11 +186,12 @@
       <workItem from="1604025887622" duration="35000" />
       <workItem from="1604050649102" duration="7870000" />
       <workItem from="1604213329498" duration="4379000" />
+      <workItem from="1605174869977" duration="5196000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -181,24 +216,28 @@
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597835111556" />
     <state x="3140" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604564981437" />
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604025920914" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1604217131624">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom" timestamp="1605177869588">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605177869588" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
     <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1604217131624">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="154" key="GridCell.Tab.0.center" timestamp="1605177869588">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605177869588" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
     <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1604217131624">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="154" key="GridCell.Tab.0.left" timestamp="1605177869588">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605177869588" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
     <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1604217131624">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="154" key="GridCell.Tab.0.right" timestamp="1605177869588">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605177869588" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1599893776760" />
     <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604217131624" />
     <state x="258" y="189" key="SettingsEditor" timestamp="1604214086826">
