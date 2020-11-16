@@ -13,12 +13,12 @@ public class Q_9465_Stricker {
         a[2][0] = sticker[1][0];
 
         for(int col=1 ; col<n; col++){
-            a[0][col] = Math.max(a[0][col - 1], Math.max(a[1][col - 1], a[2][col]));
+            a[0][col] = Math.max(a[0][col - 1], Math.max(a[1][col - 1], a[2][col - 1]));
             a[1][col] = Math.max(a[0][col - 1], a[2][col - 1]) + sticker[0][col];
             a[2][col] = Math.max(a[0][col - 1], a[1][col - 1]) + sticker[1][col];
         }
 
-        max = Math.max(a[0][n-1], Math.max(a[0][n-1], a[2][n-1]));
+        max = Math.max(a[0][n-1], Math.max(a[1][n-1], a[2][n-1]));
 
         return max;
 
