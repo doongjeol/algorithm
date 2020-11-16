@@ -4,19 +4,22 @@ import java.util.StringTokenizer;
 
 public class Q_9465_Stricker {
     public static int solution(int[][] sticker){
-        int length = sticker[0].length;
-        int[][] a = new int[3][length+1];
+        int n = sticker[0].length;
+        int[][] a = new int[3][n];
         int max = 0;
+        
+        a[0][0] = 0;
+        a[1][0] = sticker[0][0];
+        a[2][0] = sticker[1][0];
 
-        for(int col=0 ; col<length; col++){
-            a[0][col] = Math.max(a[0][col - 1], Math.max(a[1][col - 1], a[2][col - 1]));
-            a[1][col] = Math.max(a[0][col - 1], a[2][col - 1]) + sticker[0][col - 1];
-            a[2][col] = Math.max(a[0][col - 1], a[1][col - 1]) + sticker[1][col - 1];
-            max = Math.max(a[0][col], Math.max(a[0][col], a[2][col]));
+        for(int col=1 ; col<n; col++){
+            a[0][col] = Math.max(a[0][col - 1], Math.max(a[1][col - 1], a[2][col]));
+            a[1][col] = Math.max(a[0][col - 1], a[2][col - 1]) + sticker[0][col];
+            a[2][col] = Math.max(a[0][col - 1], a[1][col - 1]) + sticker[1][col];
         }
 
+        max = Math.max(a[0][n-1], Math.max(a[0][n-1], a[2][n-1]));
 
-        print(a);
         return max;
 
     }
