@@ -13,7 +13,7 @@ public class Q_2294_Coin22 {
         a[0] = 0;
         for (int i = 0; i < coin.length; i++) {
             for(int j=coin[i] ; j<=k ; j++)
-            a[j] = Math.min(a[j], a[j - coin[i]] + 1);
+                a[j] = Math.min(a[j], a[j - coin[i]] + 1);
         }
 
         if(a[k] == 10001)
