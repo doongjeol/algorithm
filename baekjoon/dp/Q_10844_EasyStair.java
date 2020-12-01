@@ -2,21 +2,34 @@ package baekjoon.dp;
 import java.io.*;
 
 public class Q_10844_EasyStair {
-    public static int solution(int n) {
-        int[] a  = new int[n+1];
-        int[] k = new int[n];
-        k[1] = 1; k[2] = 2;
-        a[1] = 9;
-        for (int i = 3; i < n; i++) {
-//            k[i] = k[k-2] +
+    public static long solution(int n) {
+        long[][] a  = new long[n+1][10];
+
+        // n이 1일 때 1로 초기화
+        for (int col = 1; col <= 9; col++) {
+            a[1][col] = 1;
         }
 
-        for (int i = 2; i <= n; i++) {
-            a[i] = a[i-1] * 2 - k[i-1];
-            a[i] %= 1000000000;
+        for (int row = 2; row <= n; row++) {
+            for (int col = 0; col <= 9; col++) {
+                if(col == 0)
+                    a[row][col] = a[row - 1][col + 1];
+                else if(col == 9)
+                    a[row][col] = a[row - 1][col - 1];
+                else
+                    a[row][col] = a[row - 1][col - 1] + a[row - 1][col + 1];
+                a[row][col] %= 1000000000;
+            }
         }
 
-        return a[n];
+        long result = 0;
+        for (int i = 0; i <= 9; i++) {
+            result += a[n][i];
+        }
+
+        result %= 1000000000;
+
+        return result;
 
     }
 
