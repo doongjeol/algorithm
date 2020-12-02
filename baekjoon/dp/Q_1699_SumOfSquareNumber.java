@@ -10,16 +10,12 @@ public class Q_1699_SumOfSquareNumber {
         }
 
         int[] a = new int[n + 1];
+        a[0] = 0;
         a[1] = 1;
-        int k = 1;
         for (int i = 2; i < n + 1; i++) {
-            if(i == square[k+1]) {
-                a[i] = 1;
-                k++;
-            } else if(i > square[k]) {
-                a[i] = a[square[k]] + a[i-square[k]];
-                if(i == square[k-1] * 2)
-                    a[i] = 2;
+            a[i] = i;
+            for (int j = 1; square[j] <= i; j++) {
+                a[i] = Math.min(a[i], a[i-square[j]]+1);
             }
         }
 
