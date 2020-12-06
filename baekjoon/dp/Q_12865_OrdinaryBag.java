@@ -5,17 +5,19 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 
 public class Q_12865_OrdinaryBag {
-    public static int solution(int k, int[] w, int[] v) {
-// w -> k , v 최대
-        int[] a = new int[k+1];
+    public static int solution(int n, int k, int[] w, int[] v) {
+        int[][] a = new int[n+1][k+1];
 
-        for (int i = 0; i < w.length; i++) {
-            for (int j = w[i]; j <= k; j++) {
-                a[j] = Math.max(a[j], a[j - w[i]] + v[i]);
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= k; j++) {
+                a[i][j] = a[i - 1][j];
+                if (j - w[i] >= 0) {
+                    a[i][j] = Math.max(a[i - 1][j], a[i - 1][j - w[i]] + v[i]);
+                }
             }
         }
 
-        return a[k];
+        return a[n][k];
     }
 
     public static void main (String[] args) throws IOException {
@@ -25,26 +27,19 @@ public class Q_12865_OrdinaryBag {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
-        int[] w = new int[n];
-        int[] v = new int[n];
-        for(int i=0 ; i<n ; i++){
+        int[] w = new int[n+1];
+        int[] v = new int[k+1];
+        for(int i=1 ; i<=n ; i++){
             st = new StringTokenizer(br.readLine());
             w[i] = Integer.parseInt(st.nextToken()); // 무게
             v[i] = Integer.parseInt(st.nextToken()); // 가치
         }
 
-        bw.write(solution(k,w,v)+"\n");
+        bw.write(solution(n,k,w,v)+"\n");
 
         br.close();
         bw.close();
 
     }
 
-    public static void print(int[][] wv){
-        for (int i = 0; i < 4; i++) {
-            System.out.print(wv[i][0] +" ");
-            System.out.println(wv[i][1]);
-        }
-
-    }
 }

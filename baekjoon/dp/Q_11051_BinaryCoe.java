@@ -16,7 +16,6 @@ public class Q_11051_BinaryCoe {
                 }
             }
         }
-//        a[n][k] %= 10007;
 
         return a[n][k];
 
