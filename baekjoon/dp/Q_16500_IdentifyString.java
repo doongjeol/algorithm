@@ -18,6 +18,7 @@ public class Q_16500_IdentifyString {
             A[i] = br.readLine();
         }
 
+        
         bw.write(solution(S,n,A)+"\n");
 
         br.close();
