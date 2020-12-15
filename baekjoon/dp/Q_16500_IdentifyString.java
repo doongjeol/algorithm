@@ -2,9 +2,29 @@ package baekjoon.dp;
 import java.io.*;
 
 public class Q_16500_IdentifyString {
-    public static int solution(String S, int n, String[] A){
+    public static int solution(String S, String[] A){
+        int[] a = new int[S.length()];
 
-        return 1;
+            for(int j=0 ; j<A.length ; j++) {
+                for(int k=0 ; k<A[j].length() ; k++){
+                    for(int i=0 ; i<S.length() ; i++){
+                        char cur = S.charAt(i);
+                        if (cur == A[j].charAt(k)) {
+                            a[i] = 1;
+                        }
+                    }
+                }
+            }
+
+
+        for (int i = 0; i < a.length; i++) {
+            if(a[i] == 0) {
+                a[a.length - 1] = 0;
+                break;
+            }
+        }
+
+        return a[a.length-1];
 
     }
     public static void main (String[] args) throws IOException {
@@ -18,8 +38,8 @@ public class Q_16500_IdentifyString {
             A[i] = br.readLine();
         }
 
-        
-        bw.write(solution(S,n,A)+"\n");
+
+        bw.write(solution(S,A)+"\n");
 
         br.close();
         bw.close();
