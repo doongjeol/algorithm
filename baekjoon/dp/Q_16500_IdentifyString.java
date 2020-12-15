@@ -5,16 +5,18 @@ public class Q_16500_IdentifyString {
     public static int solution(String S, String[] A){
         int[] a = new int[S.length()];
 
-            for(int j=0 ; j<A.length ; j++) {
-                for(int k=0 ; k<A[j].length() ; k++){
-                    for(int i=0 ; i<S.length() ; i++){
-                        char cur = S.charAt(i);
-                        if (cur == A[j].charAt(k)) {
-                            a[i] = 1;
-                        }
+        for(int j=0 ; j<A.length ; j++) {
+            String curStr = A[j];
+            for(int k=0 ; k<curStr.length() ; k++){
+                for(int i=0 ; i<S.length() ; i++){
+                    char cur = S.charAt(i);
+                    if (cur == A[j].charAt(k)) {
+                        a[i] = 1;
                     }
                 }
+
             }
+        }
 
 
         for (int i = 0; i < a.length; i++) {
