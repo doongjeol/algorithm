@@ -11,11 +11,11 @@ public class Q_11055_IncreasingSubsequence {
             int sum = a[start];
             for (int index = start; index < a.length-1; index++) {
                 for (int indexTwo = index; indexTwo < a.length - 1; indexTwo++) {
+                    if (temp < a[indexTwo + 1]) {
+                        sum += a[indexTwo + 1];
+                        temp = a[indexTwo + 1];
+                    }
 
-                }
-                if (temp < a[index + 1]) {
-                    sum += a[index + 1];
-                    temp = a[index + 1];
                 }
             }
             result = Math.max(sum, result);
