@@ -3,23 +3,24 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class Q_11055_IncreasingSubsequence {
-    public static int solution(int[] a){
-        int result = 0;
+    public static long solution(int[] a){
+        long result = 0;
 
         for (int start = 0; start < a.length; start++) {
-            int temp = a[start];
-            int sum = a[start];
             for (int index = start; index < a.length-1; index++) {
-                for (int indexTwo = index; indexTwo < a.length - 1; indexTwo++) {
-                    if (temp < a[indexTwo + 1]) {
-                        sum += a[indexTwo + 1];
-                        temp = a[indexTwo + 1];
+                int temp = a[start];
+                long sum = a[start];
+                for (int second = index + 1; second < a.length - 1; second++) {
+                    if (temp < a[second]) {
+                        sum += a[second];
+                        temp = a[second];
                     }
-
+                    System.out.println("start : "+start+" | index : "+index+" | second : "+second);
                 }
+                result = Math.max(sum, result);
+                System.out.println("---");
+                System.out.println(result);
             }
-            result = Math.max(sum, result);
-            System.out.println(result);
 
         }
 
