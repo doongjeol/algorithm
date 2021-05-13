@@ -1,19 +1,16 @@
-package baekjoon;
+package baekjoon.dfs_bfs;
 
 import java.util.Scanner;
 
-public class Q_11403_FindingRoute {
+public class Q_11403_FindingRoute_JY {
 	
 	public static int N = 0;
-	public static int row = 0;
 	public static int[][] matrix;
-	public static int[][] result;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 		matrix = new int[N][N];
-		result = new int[N][N];
 		
 		for(int i=0; i<N ; i++) {
 			for(int j=0; j<N ; j++) {
@@ -22,10 +19,11 @@ public class Q_11403_FindingRoute {
 		}
 		
 		for(int i=0; i<N ; i++) {
-			row = i;
 			for(int j=0; j<N ; j++) {
-				if(matrix[i][j] == 1) {
-					find(j);
+				for(int k=0;k<N;k++) {
+					if(matrix[j][i] == 1 && matrix[i][k] == 1) {
+						matrix[j][k]=1;
+					}
 				}
 			}
 		}
@@ -38,11 +36,4 @@ public class Q_11403_FindingRoute {
 		}
 	}
 	
-	public static void find(int col) {
-		for(int i=0 ; i<N ; i++) {
-			if(matrix[col][i]==1) {
-				matrix[row][i] = 1;
-			}
-		}
-	}
 }

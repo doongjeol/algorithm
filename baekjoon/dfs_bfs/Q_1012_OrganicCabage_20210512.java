@@ -1,4 +1,4 @@
-package baekjoon.dfs;
+package baekjoon.dfs_bfs;
 import java.io.*;
 import java.util.StringTokenizer;
 

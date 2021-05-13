@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.dfs_bfs;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,12 +8,11 @@ import java.util.List;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Q_9466_TermProjectStack{
+public class Q_9466_TermProject {
 	static int num, result, resultTemp;
 	static List<ArrayList<Integer>> list;
 	static boolean[] visited;
 	static int[] success;
-	static Stack<Integer> stack;
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testcase = Integer.parseInt(br.readLine());
@@ -25,7 +24,6 @@ public class Q_9466_TermProjectStack{
 			success = new int[num+1]; // ?:0 1:F 2:T
 			list = new ArrayList<ArrayList<Integer>>();
 			result = 0;
-			stack = new Stack();
 			for(int j=0 ; j<=num ; j++) {
 				list.add(new ArrayList());
 			}
@@ -38,7 +36,11 @@ public class Q_9466_TermProjectStack{
 			for(int r=1 ; r<=num ; r++) {
 				if(!visited[r])
 					dfs(r);
+//				System.out.println(resultTemp);
 			}
+//			for(int a=1 ; a<success.length ; a++)
+//				System.out.print(success[a]+" ");
+//			System.out.println();
 			
 			System.out.println(num - result);
 		}
@@ -48,23 +50,20 @@ public class Q_9466_TermProjectStack{
 	
 	public static void dfs(int index) {
 		visited[index] = true;
-		stack.push(index);
+		int to = list.get(index).get(0); // index�� ���� �ִ� ��
 		
-		while(!stack.isEmpty()) {
-			int cur = stack.peek();
-			int to = list.get(cur).get(0); // index�� ���� �ִ� ��
-			if(!visited[to]) {
-				visited[to] = true;
-				stack.push(to);
-			} else if(visited[to] && success[to] == 0) {
-				success[to] = 2;
-				result++;
-				stack.pop();
-			} else if(visited[to] && success[to] != 0) {
-				success[cur] = 1;
-				stack.pop();
-			}
-		}
+		// index�� ������ �ִ� ���� �湮���� �ʾҴٸ�
+		if(!visited[to]) {
+			dfs(to);
+		} 
+		// index�� ������ �ִ� ���� �湮�Ͽ��µ� ���� cycle���� �𸥴ٸ� cycle
+		if(visited[to] && success[to] == 0) {
+			success[to] = 2;
+			result++;
+		// index�� ������ �ִ� ���� �湮�Ͽ��µ� cycle�̶�� ���� index�� not cycle
+		} else if(visited[to] && success[to] != 0) {
+			success[index] = 1;
+		} 
 		
 	}
 	
