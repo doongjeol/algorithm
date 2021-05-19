@@ -30,8 +30,8 @@ public class Q_43165_TargetNumber {
         int curSumPlus = prevSum + numbers[index];
         int curSumMinus = prevSum - numbers[index];
 
-        count += dfs(numbers, target, prevSum, index+1);
-        count += dfs(numbers, target, prevSum, index+1);
+        count += dfs(numbers, target, curSumMinus, index+1);
+        count += dfs(numbers, target, curSumPlus, index+1);
 
         answer = temp;
 
