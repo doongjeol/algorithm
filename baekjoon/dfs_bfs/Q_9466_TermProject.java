@@ -17,7 +17,7 @@ public class Q_9466_TermProject {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int testcase = Integer.parseInt(br.readLine());
 		
-		// �Է�
+		// 입력
 		for(int i=0 ; i<testcase ; i++) {
 			num = Integer.parseInt(br.readLine());
 			visited = new boolean[num+1];
@@ -50,17 +50,17 @@ public class Q_9466_TermProject {
 	
 	public static void dfs(int index) {
 		visited[index] = true;
-		int to = list.get(index).get(0); // index�� ���� �ִ� ��
+		int to = list.get(index).get(0); // index가 갖고 있는 값
 		
-		// index�� ������ �ִ� ���� �湮���� �ʾҴٸ�
+		// index가 갖고 있는 값을 방문하지 않았다면
 		if(!visited[to]) {
 			dfs(to);
 		} 
-		// index�� ������ �ִ� ���� �湮�Ͽ��µ� ���� cycle���� �𸥴ٸ� cycle
+		// index가 갖고 있는 값을 방문하였는데 아직 cycle인지 모른다면 현재 index는 cycle
 		if(visited[to] && success[to] == 0) {
 			success[to] = 2;
 			result++;
-		// index�� ������ �ִ� ���� �湮�Ͽ��µ� cycle�̶�� ���� index�� not cycle
+		// index가 갖고 있는 값을 방문하였는데 cycle이라면 현재 index는 not cycle
 		} else if(visited[to] && success[to] != 0) {
 			success[index] = 1;
 		} 
