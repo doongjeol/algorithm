@@ -12,6 +12,7 @@ public class Q_2309_SevenDwarf {
                 sum += arr[i];
             }
 
+            // null일 때 한번만 넣어주기
             if(sum == 100 && result == null){
                 result = arr.clone();
 
