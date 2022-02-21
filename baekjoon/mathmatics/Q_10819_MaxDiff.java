@@ -5,31 +5,31 @@ import java.util.StringTokenizer;
 
 public class Q_10819_MaxDiff {
     public static int[] data;
-    public static void combination(int[] arr, int n, int r, int cnt, int idx) {
-        if (cnt == r) {
+    public static int result;
+    public static void permutation(int[] arr, int n, int r, boolean[] selected, int depth){
+        if(depth == r){
             int sum = 0;
-            int temp = 0;
-            for(int i= 0 ; i<arr.length ; i++){
-                if(i%2 != 0){
-                    temp = arr[i];
-                } else {
-                    temp -= arr[i];
-                    if(temp < 0){
-                        temp *= -1;
-                    }
-                    sum += temp;
-                    temp = 0;
-                }
+            for(int i=0 ; i <arr.length-1 ; i++){
+                sum += Math.abs(arr[i] - arr[i+1]);
+
             }
-            System.out.println(Arrays.toString(arr));
+            result = Math.max(sum, result);
             return;
         }
 
-        for (int i = idx; i < n; i++) {
-            arr[cnt] = data[i];
-            combination(arr, n, r, cnt + 1, i + 1);
+        for(int i=0 ; i<arr.length ; i++){
+            if(selected[i]){
+                continue;
+            }
+            arr[depth] = data[i];
+
+            selected[i] = true;
+            permutation(arr, n, r, selected, depth+1);
+            selected[i] = false;
         }
+
     }
+
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -43,7 +43,8 @@ public class Q_10819_MaxDiff {
             data[i] = Integer.parseInt(st.nextToken());
         }
 
-        combination(new int[n], n, 2, 0, 0);
+        permutation(new int[n], n, n, new boolean[n], 0);
+        bw.write(result+"");
 
         br.close();
         bw.close();

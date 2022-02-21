@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.*;
 import java.util.Arrays;
 
-public class Combication {
+public class Combination {
     public static void combination(int[] arr, int n, int r, int cnt, int idx) {
         if (cnt == r) {
             System.out.println(Arrays.toString(arr));
