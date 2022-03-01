@@ -1,4 +1,4 @@
-package baekjoon.mathmatics;
+package baekjoon.bruteforce;
 
 import java.io.*;
 import java.util.Arrays;
