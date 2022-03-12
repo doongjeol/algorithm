@@ -17,10 +17,10 @@ public class Q_1074_Z {
         int colLeft = c % half;
 
         if(row == 0 && col == 0){
-            // 1사분면
+            // 2사분면
             solution(rowLeft,colLeft,half,cnt);
         } else if(row == 0 && col == 1){
-            // 2사분면
+            // 1사분면
             cnt += half * half;
             solution(rowLeft,colLeft,half,cnt);
         } else if(row == 1 && col == 0){
