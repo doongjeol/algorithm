@@ -3,6 +3,7 @@ package baekjoon.bruteforce;
 import java.io.*;
 import java.util.StringTokenizer;
 
+/* 메모리 초과 */
 public class Q_1891_Quadrant {
     public static int d;
     public static int startNumber;
