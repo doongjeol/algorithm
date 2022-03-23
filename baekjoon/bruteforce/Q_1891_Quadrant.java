@@ -3,55 +3,79 @@ package baekjoon.bruteforce;
 import java.io.*;
 import java.util.StringTokenizer;
 
-/* 메모리 초과 */
 public class Q_1891_Quadrant {
     public static int d;
-    public static int startNumber;
-    public static int startNumR, startNumC;
-    public static int[][] map;
-    public static void solution(int n, String curNumber, int curD,int startR, int startC){
-        if(curD == d+1){
+    public static String startNumber;
+    public static long startNumR, startNumC;
+    public static String answer = "";
+
+    public static void findIndex(int depth, long cr, long cc){
+        if(depth == d){
+            startNumR = cr;
+            startNumC = cc;
             return;
         }
-        int half = n/2;
 
-        for (int i = startR; i < startR + n; i++) {
-            for (int j = startC; j < startC + n; j++) {
-                map[i][j] = Integer.parseInt(String.valueOf(map[i][j]) + curNumber);
-                if(map[i][j] == startNumber){
-                    startNumR = i;
-                    startNumC = j;
-                }
-            }
+        int position = startNumber.charAt(depth) - '0';
+
+        if(position == 1){
+            findIndex(depth + 1, 2 * cr, 2 * cc + 1);
+        } else if(position == 2){
+            findIndex(depth + 1, 2 * cr, 2 * cc);
+        } else if(position == 3){
+            findIndex(depth + 1, 2 * cr + 1, 2 * cc);
+        } else if(position == 4){
+            findIndex(depth + 1, 2 * cr + 1, 2 * cc + 1);
         }
-
-        solution(half,"2",curD+1,startR,startC); // 2사분면
-        solution(half,"1",curD+1,startR,startC+half); // 1사분면
-        solution(half,"3",curD+1,startR+half,startC); // 3사분면
-        solution(half,"4",curD+1,startR+half,startC+half); // 4사분면
 
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void solution(int depth, long cr, long cc){
+        if(depth == d){
+            return;
+        }
 
+        long r = cr % 2;
+        long c = cc % 2;
+
+        if(r == 0 && c == 1){
+            answer += String.valueOf(1);
+        } else if(r == 0 && c == 0){
+            answer += String.valueOf(2);
+        } else if (r == 1 && c == 0) {
+            answer += String.valueOf(3);
+        } else if (r == 1 && r == 1) {
+            answer += String.valueOf(4);
+        }
+
+        solution(depth + 1, cr / 2, cc / 2);
+    }
+
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         d = Integer.parseInt(st.nextToken());
-        int n = (int) Math.pow(2,d);
-        map = new int[n][n];
+        startNumber = st.nextToken();
 
-        startNumber = Integer.parseInt(st.nextToken());
-
-        solution(n,"",0,0,0);
-
+        findIndex(0,0,0);
         st = new StringTokenizer(br.readLine());
-        int x = Integer.parseInt(st.nextToken());
-        int y = Integer.parseInt(st.nextToken());
+        long x = Long.parseLong(st.nextToken());
+        long y = Long.parseLong(st.nextToken());
 
-        bw.write(map[startNumR-y][startNumC+x]+"");
+        long moveR = startNumR - y;
+        long moveC = startNumC + x;
 
+        if(moveR < 0 || moveC < 0 || moveR >= Math.pow(2,d) || moveC >= Math.pow(2,d)){
+            bw.write("-1");
+        } else {
+            solution(0, moveR, moveC);
+            for (int i = answer.length()-1; i >=0 ; i--) {
+                bw.write(answer.charAt(i));
+            }
+            bw.write("\n");
+        }
 
         br.close();
         bw.close();

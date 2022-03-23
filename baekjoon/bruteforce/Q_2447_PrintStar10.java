@@ -5,10 +5,10 @@ import java.io.*;
 /* 12%에서 자꾸 틀림.. ㅠㅠ*/
 public class Q_2447_PrintStar10 {
     public static char[][] result;
-
+    public static int count;
     public static void solution(int n, int depth, int startR, int startC, int position) {
 
-        if (depth == 3) {
+        if (depth == count) {
             return;
         }
 
@@ -51,6 +51,7 @@ public class Q_2447_PrintStar10 {
                 result[i][j] = ' ';
             }
         }
+        count = (int)(Math.log10(n)/Math.log10(3));
         solution(n,-1,0,0,-1);
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result[0].length; j++) {
