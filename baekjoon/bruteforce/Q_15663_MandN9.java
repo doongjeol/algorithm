@@ -4,12 +4,17 @@ import java.util.*;
 
 public class Q_15663_MandN9 {
     public static int[] data;
+    public static HashSet<String> set = new HashSet<>();
     public static void permutation(int[] arr, int r, int depth, boolean[] chekced, BufferedWriter bw) throws IOException {
         if(depth == r){
+            String str = "";
             for (int i = 0; i < arr.length; i++) {
-                bw.write(arr[i]+" ");
+                str += arr[i]+" ";
             }
-            bw.write("\n");
+            if(!set.contains(str)) {
+                set.add(str);
+                bw.write(str+"\n");
+            }
             return;
         }
 
