@@ -1,38 +1,23 @@
 package baekjoon.bruteforce;
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.StringTokenizer;
 
-public class Q_15666_MandN12 {
-    public static HashSet hashSet = new HashSet<>();
-    public static int[] num;
+public class Q_15665_MandN11 {
     public static int n,m;
-    public static void permutation(int[] arr, int depth, BufferedWriter bw) throws IOException{
-        if(depth == m){
-            String str = "";
-            for (int i = 0; i < arr.length; i++) {
-                str += arr[i] + " ";
-            }
-
-            if(!hashSet.contains(str)){
-                hashSet.add(str);
-                bw.write(str+"\n");
-            }
-
-
+    public static int[] num;
+    public static void permutation(int[] arr, boolean[] selected, int depth, BufferedWriter bw) throws IOException{
+        if (depth == m) {
             return;
         }
 
-        for (int i = 0; i < num.length; i++) {
+        for (int i = 0; i < n; i++) {
+            if(selected[i]) continue;
+            selected[i] = true;
             arr[depth] = num[i];
-            if (depth > 0 && arr[depth - 1] > arr[depth]) {
-                continue;
-            }
-            permutation(arr, depth + 1, bw);
+            permutation(arr, selected, depth + 1, bw);
+            selected[i] = false;
         }
     }
-
     public static void main (String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -47,10 +32,6 @@ public class Q_15666_MandN12 {
         for (int i = 0; i < n; i++) {
             num[i] = Integer.parseInt(st.nextToken());
         }
-
-        Arrays.sort(num);
-
-        permutation(new int[m], 0, bw);
         br.close();
         bw.close();
     }
