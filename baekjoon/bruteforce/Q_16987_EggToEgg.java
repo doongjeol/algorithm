@@ -7,27 +7,28 @@ public class Q_16987_EggToEgg {
     public static int max = Integer.MIN_VALUE;
     public static int[][] egg;
     public static void solution(int[][] arr, int depth, boolean[] isPossible, int result, int idx){
-        if(depth == n){
+        if(depth == n-1){
             max = Math.max(max, result);
             return;
         }
-        for (int i = idx; i < arr.length - 1; i++) {
+        for (int i = idx; i < arr.length; i++) {
             if (isPossible[i]) continue;
-            arr[i][0] -= arr[i + 1][1];
-            arr[i + 1][0] -= arr[i][1];
+            if(depth == i) continue;
+            arr[depth][0] -= arr[i][1];
+            arr[i][0] -= arr[depth][1];
             if (arr[i][0] < 0) {
                 isPossible[i] = true;
                 result += 1;
-            } else if (arr[i + 1][0] < 0) {
-                isPossible[i + 1] = true;
+            } else if (arr[depth][0] < 0) {
+                isPossible[depth] = true;
                 result += 1;
             }
-//            System.out.println(arr[i][0] + " " + arr[i + 1][1] + " result : " + result);
-            System.out.println("i : "+i);
+            System.out.println(depth + " " + i + " result : " + result);
+//            System.out.println("i : "+i);
             max = Math.max(result, max);
             solution(arr, depth + 1, isPossible, result, i + 1);
             isPossible[i] = false;
-            isPossible[i + 1] = false;
+            isPossible[depth] = false;
         }
     }
     
