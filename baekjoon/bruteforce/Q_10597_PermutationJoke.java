@@ -8,20 +8,13 @@ public class Q_10597_PermutationJoke {
     
     public static int getNumber(String str){
         int length = str.length();
-        System.out.println(length);
-        int share = length / 10;
         int lastNum = 0;
-        int temp = 1;
-        int sum = 0;
-        for (int i = 1; i <= 16; i++) {
-            if(i % 10 == 0){
-                temp += 1;
-            }
-            sum += 1 * temp;
+        if(length<10){
+            lastNum = length;
+        } else if (length >= 10) {
+           lastNum = (length-9)/2 + 9;
+
         }
-        System.out.println(sum);
-
-
         return lastNum;
 
     }
