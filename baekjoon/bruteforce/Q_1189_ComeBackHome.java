@@ -7,20 +7,25 @@ public class Q_1189_ComeBackHome {
     public static char[][] map ;
     public static int[] dx = {-1, 0, 1, 0};
     public static int[] dy = {0, -1, 0, 1};
-    public static void solution(int curR, int curC, int depth){
-        if (curR == r - 1 && curC == c - 1) {
-            if(depth == 4){
+    public static void solution(int curR, int curC, int depth, boolean[][] visited){
+        if (curR == 0 && curC == c - 1) {
+            System.out.println();
+            if(depth == k){
                 result += 1;
             }
             return;
         }
 
         for (int i = 0; i < 4; i++) {
-            curR = curR + dx[i];
-            curC = curC + dy[i];
-            if(curR < 0 || curC < 0 || curR >= r || curC >= c) continue;
-            if(map[curR][curC] == 'T') continue;
-            solution(curR, curC, depth+1);
+            int nextR = curR + dx[i];
+            int nextC = curC + dy[i];
+            if(nextR < 0 || nextC < 0 || nextR >= r || nextC >= c) continue;
+            if(map[nextR][nextC] == 'T') continue;
+            if(visited[nextR][nextC]) continue;
+            visited[nextR][nextC] = true;
+            System.out.print(curR +" "+curC+" |");
+            solution(nextR, nextC, depth+1,visited);
+            visited[nextR][nextC] = false;
         }
     }
     public static void main(String[] args) throws IOException {
@@ -41,7 +46,7 @@ public class Q_1189_ComeBackHome {
             }
         }
 
-        solution(r-1,0,0);
+        solution(r-1,0,1, new boolean[r][c]);
         bw.write(result+"");
 
         br.close();
