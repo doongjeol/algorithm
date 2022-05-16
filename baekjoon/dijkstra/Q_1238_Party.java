@@ -6,28 +6,29 @@ import java.util.*;
 public class Q_1238_Party {
     public static int n,m,x;
     public static LinkedList<Edge>[] graph;
-    public static int[] distance;
-    public static void solution(){
-        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return Integer.compare(distance[o1], distance[o2]);
-            }
-        });
+    public static int solution(int start, int end){
 
-        pq.add(1); // 일단 1번부터 시작
-        distance[1] = 0;
+        boolean[] visited = new boolean[n + 1];
+        int[] distance = new int[n + 1];
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        distance[start] = 0;
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.comparingInt(o -> distance[o]));
+        pq.add(start); // 일단 1번부터 시작
 
         while (!pq.isEmpty()){
             int cur = pq.poll();
+            if(cur == end) return distance[end];
+            if(visited[cur]) continue;
+            visited[cur] = true;
             for(Edge next : graph[cur]){
-                if(distance[cur] + next.time < distance[next.to]){
+                if(!visited[next.to] && distance[cur] + next.time < distance[next.to]){
                     distance[next.to] = distance[cur] + next.time;
                     pq.add(next.to);
                 }
             }
         }
 
+        return distance[end];
     }
 
     public static class Edge {
@@ -49,13 +50,10 @@ public class Q_1238_Party {
         m = Integer.parseInt(st.nextToken());
         x = Integer.parseInt(st.nextToken());
 
-        graph = new LinkedList[m + 1];
-        for (int i = 0; i < m+1; i++) {
+        graph = new LinkedList[n + 1];
+        for (int i = 0; i < n+1; i++) {
             graph[i] = new LinkedList<>();
         }
-
-        distance = new int[m + 1];
-        Arrays.fill(distance, Integer.MAX_VALUE);
 
         for (int i = 0; i < m; i++) {
             st = new StringTokenizer(br.readLine());
@@ -68,10 +66,12 @@ public class Q_1238_Party {
 
         }
 
-        solution();
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i < distance.length; i++) {
-            max = Math.max(max, distance[i]);
+
+        for (int i = 1; i < n+1; i++) {
+            int toX = solution(i, x);
+            int toI = solution(x, i);
+            max = Math.max(max, toX + toI);
         }
 
         bw.write(max+"");

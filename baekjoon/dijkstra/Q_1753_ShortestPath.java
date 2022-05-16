@@ -7,17 +7,11 @@ public class Q_1753_ShortestPath {
     public static LinkedList<Edge>[] graph;
     public static int[] distance;
     public static void solution(){
-        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return Integer.compare(distance[o1],distance[o2]);
-            }
-        });
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Comparator.comparingInt(o -> distance[o]));
 
         boolean[] visited = new boolean[v+1];
         pq.add(k);
         distance[k] = 0;
-        visited[k] = true;
 
         while(!pq.isEmpty()){
             int cur = pq.poll();

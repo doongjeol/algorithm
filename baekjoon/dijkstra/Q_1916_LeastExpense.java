@@ -15,13 +15,16 @@ public class Q_1916_LeastExpense {
             }
         });
 
+        boolean[] visited = new boolean[n + 1];
         pq.add(from);
         expense[from] = 0;
 
         while(!pq.isEmpty()){
             int cur = pq.poll();
+            if(visited[cur]) continue;
+            visited[cur] = true;
             for(Edge next : graph[cur]){
-                if(expense[cur] + next.expense < expense[next.to]){
+                if(!visited[next.to] && expense[cur] + next.expense < expense[next.to]){
                     expense[next.to] = expense[cur] + next.expense;
                     pq.add(next.to);
                 }
