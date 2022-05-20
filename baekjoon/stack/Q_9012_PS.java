@@ -22,7 +22,7 @@ public class Q_9012_PS {
                     stack.push(c);
                 else if(c.equals(")")) {
                     if(!stack.empty()){
-                        // stack에 여는 괄호가 존재한다면 스택의 값을 pop
+                        // stack에 여는 괄호가 존재한다면 stack의 값을 pop
                         stack.pop();
                     } else {
                         // 여는 괄호가 없는데 닫힌 괄호가 나왔으면 false
