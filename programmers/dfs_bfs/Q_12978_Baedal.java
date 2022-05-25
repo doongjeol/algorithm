@@ -1,15 +1,18 @@
-package programmers.dijkstra;
+package programmers.dfs_bfs;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
 
 public class Q_12978_Baedal {
+    public static HashSet<Integer> set = new HashSet<>();
     public static int solution(int N, int[][] road, int K) {
-        int answer = 0;
         ArrayList<Edge>[] graph = makeList(N,road);
         boolean[] visited = new boolean[N + 1];
         dfs(graph,1,visited,K,0);
 
-        return answer;
+        return set.size();
     }
 
     public static ArrayList[] makeList(int N, int[][] road){
@@ -26,24 +29,20 @@ public class Q_12978_Baedal {
             int c = road[i][2];
 
             graph[a].add(new Edge(b,c));
+            graph[b].add(new Edge(a,c));
         }
 
         return graph;
     }
     public static void dfs(ArrayList<Edge>[] graph, int cur, boolean[] visited, int K, int curDistance){
         visited[cur] = true;
-        System.out.println(cur);
 
         for(Edge next : graph[cur]){
-            if(next.to > 0 && !visited[next.to] && curDistance <=K){
-                dfs(graph,next.to , visited, K, curDistance + next.distance);
+            if(curDistance + next.distance <=K){
+                set.add(next.to);
+                dfs(graph, next.to, visited, K, curDistance + next.distance);
             }
         }
-//        for (int i = 1; i < graph.length; i++) {
-//            if (graph[cur].to > 0 && !visited[i] && curDistance <= K) {
-//                dfs(graph, i, visited, K,curDistance + graph[cur][i]);
-//
-//        }
     }
 
     public static class Edge {
@@ -60,31 +59,32 @@ public class Q_12978_Baedal {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-//        int N = 5;
+        int N = 5;
 
-//        int[][] road =  {
-//                {1,2,1},
-//                {2,3,3},
-//                {5,2,2},
-//                {1,4,2},
-//                {5,3,1},
-//                {5,4,2}
-//        };
-//        int K = 3;
-
-        int N = 6;
-        int[][] road = {
+        int[][] road =  {
                 {1,2,1},
-                {1,3,2},
-                {2,3,2},
-                {3,4,3},
-                {3,5,2},
-                {3,5,3},
-                {5,6,1}
+                {2,3,3},
+                {5,2,2},
+                {1,4,2},
+                {5,3,1},
+                {5,4,2}
         };
-        int K = 4;
+        int K = 3;
 
-        solution(N, road, K);
+//        int N = 6;
+//        int[][] road = {
+//                {1,2,1},
+//                {1,3,2},
+//                {2,3,2},
+//                {3,4,3},
+//                {3,5,2},
+//                {3,5,3},
+//                {5,6,1}
+//        };
+//        int K = 4;
+
+        int result = solution(N, road, K);
+        bw.write(result+"");
 
         br.close();
         bw.close();
