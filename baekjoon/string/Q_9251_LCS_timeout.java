@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q_1541_LostParentheses_timeout {
+public class Q_9251_LCS_timeout {
     public static List<String> aList = new ArrayList<>();
     public static List<String> bList = new ArrayList<>();
     public static void subSet(List<String> list, int n, int depth, String str, boolean isA){
