@@ -41,6 +41,7 @@ public class Q_2606_Virus_bfs {
         graph = new ArrayList[num + 1];
         for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
+
         }
 
         for (int i = 0; i < pair; i++) {
