@@ -31,7 +31,7 @@ public class Q_1541_LostBracket {
             if(sum == Integer.MAX_VALUE){
                 sum = temp;
             } else {
-                sum -= temp;
+                sum -= temp; 
             }
 
         }
