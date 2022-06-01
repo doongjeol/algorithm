@@ -1,44 +1,19 @@
 package programmers.dfs_bfs;
-
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
 
-public class Q_12978_Baedal {
-    public static LinkedList<Edge>[] graph;
-    public static int[] distance;
-    public static HashSet<Integer> result = new HashSet<>();
+public class Q_12978_Baedal_fail {
+    public static HashSet<Integer> set = new HashSet<>();
+    public static int[] expense;
     public static int solution(int N, int[][] road, int K) {
         ArrayList<Edge>[] graph = makeList(N,road);
-        PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return Integer.compare(distance[o1], distance[o2]);
-            }
-        });
-
         boolean[] visited = new boolean[N + 1];
-        distance = new int[N + 1];
-        Arrays.fill(distance, Integer.MAX_VALUE);
-        distance[1] = 0;
-        pq.add(1);
-        result.add(1);
+        expense = new int[N + 1];
+        expense[1] = 0;
+        dfs(graph,1,visited,K);
 
-        while(!pq.isEmpty()){
-            int cur = pq.poll();
-            if(visited[cur]) continue;
-            visited[cur] = true;
-            for(Edge next : graph[cur]){
-                if(visited[next.to]) continue;
-                if(distance[cur] + next.distance > K) continue;
-                if(distance[cur] + next.distance < distance[next.to]){
-                    distance[next.to] = distance[cur] + next.distance;
-                    pq.add(next.to);
-                    result.add(next.to);
-                }
-            }
-        }
-
-        return result.size();
+        return set.size();
     }
 
     public static ArrayList[] makeList(int N, int[][] road){
@@ -50,15 +25,26 @@ public class Q_12978_Baedal {
         }
 
         for (int i = 0; i < road.length; i++) {
-            int a = road[i][0]; // 시작점
-            int b = road[i][1]; // 도착점
-            int c = road[i][2]; // 비용
+            int a = road[i][0];
+            int b = road[i][1];
+            int c = road[i][2];
 
             graph[a].add(new Edge(b,c));
             graph[b].add(new Edge(a,c));
         }
 
         return graph;
+    }
+
+    public static void dfs(ArrayList<Edge>[] graph, int cur, boolean[] visited, int K){
+        visited[cur] = true;
+
+        for(Edge next : graph[cur]){
+            if (!visited[next.to] && expense[cur] + next.distance <= K && expense[cur] + next.distance < expense[next.to]) {
+                set.add(next.to);
+                dfs(graph, next.to, visited, K);
+            }
+        }
     }
 
     public static class Edge {
