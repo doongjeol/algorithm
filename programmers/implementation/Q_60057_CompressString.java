@@ -5,35 +5,38 @@ import java.util.HashMap;
 public class Q_60057_CompressString {
     public static int solution(String s) {
         int answer = 1001;
-
         for (int standard = 1; standard < s.length(); standard++) {
             int count = 0;
             if(s.length() % standard != 0) continue;
-            for (int i = 0; i < s.length(); i+= standard) {
-                HashMap<String, Integer> hashMap = new HashMap<>();
+            String tmp = "";
+            String str = "";
+            int compress = 0;
+            for (int i = 0; i < s.length(); i += standard) {
+                str = "";
                 for (int j = i; j < i+standard; j++) {
-                    String tmp = String.valueOf(s.charAt(j));
-                    if(hashMap.containsKey(tmp)) {
-                        int cnt = hashMap.get(tmp) + 1;
-                        hashMap.replace(tmp, cnt);
-                    } else {
-                        hashMap.put(tmp, 1);
-                    }
+                    str += String.valueOf(s.charAt(j));
                 }
-                Object[] key = hashMap.keySet().toArray();
-                for(Object o : key){
-                    if(hashMap.get(o) > 1) {
-                        count += 1;
-                    }
+                if(tmp.equals(str)){
+                    compress += 1;
+                } else {
+                    compress = 0;
                 }
-                count += key.length;
+                tmp = str;
+                // 압축되지 않을 때
+                if(compress == 0){
+                    count += standard;
+
+                // 압축되었을 때
+                } else if(compress == 1) {
+                    count += 1;
+                }
             }
             answer = Math.min(answer, count);
         }
         return answer;
     }
     public static void main(String[] args) throws IOException {
-        String s = "ababcdcdababcdcd";
+        String s = "abcabcdede";
         System.out.println(solution(s));
     }
 }
