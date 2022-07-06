@@ -7,7 +7,7 @@ public class Q_1835_TakeAGroupPhoto {
         int answer = 0;
         count = 0;
         inputData = data;
-        String[] friend = {"A", " C", " F", " J", " M", " N", " R", " T"};
+        String[] friend = {"A", "C", "F", "J", "M", "N", "R", "T"};
 
         int length = friend.length;
         permutation(friend, new String[length], length, new boolean[length], 0);
@@ -42,6 +42,7 @@ public class Q_1835_TakeAGroupPhoto {
 
             int f1 = 0;
             int f2 = 0;
+
             for (int j = 0; j < arr.length; j++) {
                 if(arr[j].equals(first)){
                     f1 = j;
@@ -50,7 +51,7 @@ public class Q_1835_TakeAGroupPhoto {
                 }
             }
 
-            int distance = Math.abs(f1-f2);
+            int distance = Math.abs(f1 - f2) - 1;
             if(mark == '='){
                 if(distance != space) return false;
             } else if(mark == '>'){
