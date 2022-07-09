@@ -6,8 +6,7 @@ public class Q_62048_Rectangle {
     public static long solution(int w, int h) {
         long answer = 1;
         long ref = gcd(w, h);
-        answer = ((long)(w * h)) - (((w / ref) + (h / ref)) - 1) * ref;
-
+        answer = ((long) w * h) - (((w / ref) + (h / ref) - 1) * ref);
         return answer;
     }
 
