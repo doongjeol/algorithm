@@ -4,59 +4,45 @@ import java.util.*;
 
 public class Q_9205_Walk {
     static int n,sx,sy,dx,dy;
+    public static int[][] map ;
+    public static int[] beer;
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        StringTokenizer st = null;
 
         int t = Integer.parseInt(br.readLine());
-        for(int tc=0; tc<t; tc++) {
-            n = Integer.parseInt(br.readLine());
-            List<int[]> list = new ArrayList<>();
-            for(int i=0; i<n+2; i++) {
-                st = new StringTokenizer(br.readLine());
-                int x = Integer.parseInt(st.nextToken());
-                int y = Integer.parseInt(st.nextToken());
-                if(i==0) {
-                    sx = x;
-                    sy = y;
-                }else if(i==n+1) {
-                    dx = x;
-                    dy = y;
-                }else {
-                    list.add(new int[]{x,y});
-                }
+        for (int i = 0; i < t; i++) {
+            int n = Integer.parseInt(br.readLine());
+            beer = new int[21];
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < 3; j++) {  // j:0 - 상근이네, j:1 - 편의점, j:2 - 페스티벌 좌표
+                map[j][0] = Integer.parseInt(st.nextToken());
+                map[j][1] = Integer.parseInt(st.nextToken());
             }
-
-            bw.write(bfs(list)? "happy\n" : "sad\n");
         }
 
-        bw.flush();
         bw.close();
+        br.close();
+    }
+    public static int distance(int x1, int y1, int x2, int y2){
+        int distance = Math.abs(x1 - x2) + Math.abs(x2 - y2);
+        return distance;
     }
 
-    static boolean bfs(List<int[]> list) {
-        Queue<int[]> q = new LinkedList<>();
-        boolean[] visited = new boolean[n];
-        q.add(new int[] {sx,sy});
-        while(!q.isEmpty()) {
-            int[] pos = q.poll();
-            int px = pos[0], py = pos[1];
-            if(Math.abs(px-dx) + Math.abs(py-dy) <= 1000) {
-                return true;
-            }
-
-            for(int i=0; i<n; i++) {
-                if(!visited[i]) {
-                    int nx = list.get(i)[0], ny = list.get(i)[1];
-                    int dis = Math.abs(px - nx) + Math.abs(py - ny);
-                    if(dis <= 1000) {
-                        visited[i] = true;
-                        q.add(new int[]{nx,ny});
-                    }
-                }
-            }
-        }
+    static boolean bfs() {
+        Queue<Integer> q = new LinkedList<>();
+//        q.add
         return false;
+    }
+
+    class Pair{
+        int x;
+        int y;
+
+        Pair(int x, int y){
+            this.x = x;
+            this.y = y;
+        }
+
     }
 }

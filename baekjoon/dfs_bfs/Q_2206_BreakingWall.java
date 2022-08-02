@@ -51,15 +51,15 @@ public class Q_2206_BreakingWall {
 				int nodeC = cur.c + dir[i][1];
 				
 				if(nodeR<0 || nodeR>=row || nodeC<0 || nodeC>=col) continue;
-				// ���� ���� �� ���� && �ѹ��� �Ȱ��� && ���� ���
+				// 벽을 뚫은 적 없고 && 한번도 안갔고 && 벽일 경우
 				else if(!cur.check && time[nodeR][nodeC] == 0 && map[nodeR][nodeC] == 1) {
 					time[nodeR][nodeC] = time[cur.r][cur.c] + 1;
 					q.add(new Pair(nodeR, nodeC, true));
-				// ���� ���� �� �ְ� && �ѹ��� �Ȱ��� && ���� �ƴѰ��
+				// 벽을 뚫은 적 있고 && 한번도 안갔고 && 벽이 아닌경우
 				}else if(cur.check && time[nodeR][nodeC] == 0 && map[nodeR][nodeC] == 0) {
 					time[nodeR][nodeC] = time[cur.r][cur.c] + 1;
 					q.add(new Pair(nodeR, nodeC, true));
-				// ���� ���� �� ���� && ���� �վ��� ��츸 �湮�� ���
+				// 벽을 뚫은 적 없고 && 벽을 뚫었던 경우만 방문한 경우
 				} else if(!cur.check && !breakWall[nodeR][nodeC] && map[nodeR][nodeC] == 0) {
 					time[nodeR][nodeC] = time[cur.r][cur.c] + 1;
 					q.add(new Pair(nodeR, nodeC, false));
